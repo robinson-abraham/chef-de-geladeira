@@ -146,9 +146,4 @@ chef-de-geladeira/
   server.js
 ```
 
-## Observacoes para entrega
 
-- Envie o projeto em um repositorio publico no GitHub.
-- Nao envie o arquivo `.env`.
-- Cada integrante deve enviar o link do repositorio conforme as regras da atividade.
-- Antes de entregar, teste com uma chave real do OpenRouter.
