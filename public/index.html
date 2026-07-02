@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chef de Geladeira</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="workspace" aria-labelledby="app-title">
+        <div class="brand-panel">
+          <img class="brand-image" src="/fridge-chef.svg" alt="Geladeira aberta com ingredientes" />
+          <div>
+            <p class="eyebrow">IA via OpenRouter</p>
+            <h1 id="app-title">Chef de Geladeira</h1>
+          </div>
+        </div>
+
+        <form class="ingredient-form" id="ingredient-form">
+          <label for="ingredients">Ingredientes</label>
+          <textarea
+            id="ingredients"
+            name="ingredients"
+            rows="6"
+            maxlength="220"
+            placeholder="Ex.: arroz cozido, tomate, queijo, ovo"
+            required
+          ></textarea>
+
+          <div class="form-footer">
+            <span id="ingredient-count">0 ingredientes</span>
+            <button type="submit" id="submit-button">Gerar receita</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="result-panel" aria-live="polite">
+        <div class="status-bar">
+          <span class="status-dot" id="status-dot"></span>
+          <span id="status-text">Aguardando ingredientes</span>
+        </div>
+
+        <article class="recipe-view" id="recipe-view" hidden>
+          <h2 id="recipe-title"></h2>
+          <p id="recipe-concept"></p>
+
+          <div class="recipe-meta">
+            <span id="recipe-time"></span>
+            <span id="recipe-level"></span>
+            <span id="recipe-servings"></span>
+          </div>
+
+          <h3>Ingredientes usados</h3>
+          <ul id="used-ingredients"></ul>
+
+          <h3>Modo de preparo</h3>
+          <ol id="steps"></ol>
+
+          <h3>JSON retornado</h3>
+          <pre id="json-output"></pre>
+        </article>
+
+        <pre class="empty-json" id="empty-json">{
+  "erro": false,
+  "receita": null
+}</pre>
+      </section>
+    </main>
+
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>

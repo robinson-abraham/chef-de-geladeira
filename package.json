@@ -1,0 +1,24 @@
+{
+  "name": "chef-de-geladeira",
+  "version": "1.0.0",
+  "description": "Aplicativo que usa OpenRouter para sugerir receitas criativas com 3 a 5 ingredientes disponíveis na geladeira.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "openrouter",
+    "llm",
+    "receitas",
+    "json",
+    "ia"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}

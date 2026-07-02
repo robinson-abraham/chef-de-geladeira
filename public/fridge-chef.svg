@@ -1,0 +1,19 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Geladeira com ingredientes</title>
+  <desc id="desc">Ilustracao simples de uma geladeira aberta com legumes e um chapeu de chef.</desc>
+  <rect x="28" y="34" width="84" height="106" rx="10" fill="#FFFFFF" stroke="#1D6F5F" stroke-width="5"/>
+  <path d="M70 35V139" stroke="#D8E2DC" stroke-width="4"/>
+  <rect x="39" y="50" width="21" height="5" rx="2.5" fill="#1D6F5F"/>
+  <rect x="80" y="50" width="21" height="5" rx="2.5" fill="#1D6F5F"/>
+  <rect x="40" y="77" width="60" height="10" rx="5" fill="#EEF6F4"/>
+  <rect x="40" y="106" width="60" height="10" rx="5" fill="#EEF6F4"/>
+  <circle cx="51" cy="82" r="8" fill="#D95F43"/>
+  <circle cx="73" cy="82" r="8" fill="#F0B43C"/>
+  <path d="M92 91C99.18 91 105 85.18 105 78C105 70.82 99.18 65 92 65C84.82 65 79 70.82 79 78C79 85.18 84.82 91 92 91Z" fill="#6CA66F"/>
+  <path d="M48 116C48 107 62 107 62 116V124H48V116Z" fill="#6CA66F"/>
+  <path d="M68 123C68 111 87 111 87 123V128H68V123Z" fill="#D95F43"/>
+  <path d="M93 123C93 113 108 113 108 123V128H93V123Z" fill="#F0B43C"/>
+  <path d="M54 27C54 19.82 59.82 14 67 14C70.28 14 73.28 15.21 75.57 17.21C78.33 12.86 83.19 10 88.72 10C97.34 10 104.32 16.98 104.32 25.6C104.32 26.09 104.3 26.58 104.25 27.06C110.23 27.88 114.84 33.01 114.84 39.21C114.84 45.98 109.35 51.47 102.58 51.47H63.74C56.97 51.47 51.48 45.98 51.48 39.21C51.48 34.33 54.33 30.12 58.46 28.14C57.16 27.43 55.66 27 54 27Z" fill="#FFFFFF" stroke="#D95F43" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M118 71C125.73 70.29 132.55 75.98 133.26 83.71L136.8 122.25C137.51 129.98 131.82 136.81 124.09 137.52C116.36 138.23 109.54 132.54 108.83 124.81L105.29 86.27C104.58 78.54 110.27 71.71 118 71Z" fill="#1D6F5F"/>
+  <path d="M119 85L125 126" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+</svg>
